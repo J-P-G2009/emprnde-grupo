@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Emprende Jóvenes - Grupo de Amistad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f4d35e, #f7e27d);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.card{
+    background:white;
+    width:90%;
+    max-width:500px;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.2);
+    padding:20px;
+    text-align:center;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+img{
+    width:100%;
+    border-radius:15px;
+}
+
+h2{
+    margin-top:15px;
+    color:#333;
+}
+
+.boton{
+    display:block;
+    margin:15px auto;
+    padding:15px;
+    font-size:18px;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    width:80%;
+    transition:0.3s;
+}
+
+.ubicacion{
+    background:linear-gradient(45deg,#000,#333);
+}
+
+.whatsapp{
+    background:linear-gradient(45deg,#25D366,#1ebe5d);
+}
+
+.boton:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.footer{
+    font-size:14px;
+    color:#777;
+    margin-top:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- Asegúrate que la imagen esté en la misma carpeta y se llame invitacion.jpg -->
+    <img src="invitacion.png" alt="Invitación Grupo de Amistad">
+
+    <h2>¡Te esperamos! 💛</h2>
+
+    <a class="boton ubicacion" 
+       href="https://waze.com/ul/h9fxe5w1m2" 
+       target="_blank">
+       📍 Ver Ubicación
+    </a>
+
+    <a class="boton whatsapp" 
+       href="https://wa.me/50250787514?text=Hola%20quiero%20más%20información%20sobre%20el%20Grupo%20de%20Amistad" 
+       target="_blank">
+       💬 Más Información
+    </a>
+
+    <div class="footer">
+        Emprende Jóvenes © 2026
+    </div>
+
+</div>
+
+</body>
+</html>
